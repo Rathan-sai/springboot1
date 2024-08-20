@@ -9,6 +9,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.math.BigDecimal;
+
 @Entity
 @Getter
 @Setter
@@ -21,4 +23,6 @@ public class Product {
     private long id;
 
     private String name;
+
+    private BigDecimal price;
 }
